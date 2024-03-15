@@ -47,3 +47,17 @@ print(squares_list)
 
 # Task 5
 
+
+class SquareGenerator:
+    def e_squares(self, start, end):
+        if start < end + 1:
+            squares = [math.pow(x, 2) for x in range(start, end + 1)]
+            return squares
+        else:
+            return "Start cannot be smaller than end"
+
+
+start_num = 10
+end_num = 10
+squares_list = SquareGenerator().e_squares(start_num, end_num)
+print(squares_list)
