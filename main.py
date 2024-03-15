@@ -1,3 +1,4 @@
+import math
 
 """
 # Task 1
@@ -31,3 +32,14 @@ print(squares_list)
 """
 # Task 4
 
+
+class SquareGenerator:
+    def e_squares(self, start, end):
+        squares = [math.pow(x, 2) for x in range(start, end + 1)]
+        return squares
+
+
+start_num = 1
+end_num = 10
+squares_list = SquareGenerator().e_squares(start_num, end_num)
+print(squares_list)
