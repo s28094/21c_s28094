@@ -1,5 +1,5 @@
 import math
-
+import square_generator
 """
 # Task 1
 
@@ -46,7 +46,7 @@ print(squares_list)
 """
 
 # Task 5
-
+"""
 
 class SquareGenerator:
     def e_squares(self, start, end):
@@ -60,4 +60,12 @@ class SquareGenerator:
 start_num = 10
 end_num = 10
 squares_list = SquareGenerator().e_squares(start_num, end_num)
+print(squares_list)
+"""
+
+# Task 6
+
+start_num = 10
+end_num = 10
+squares_list = square_generator.SquareGenerator().e_squares(start_num, end_num)
 print(squares_list)
