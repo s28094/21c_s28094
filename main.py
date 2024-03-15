@@ -31,7 +31,7 @@ squares_list = SquareGenerator().e_squares(start_num, end_num)
 print(squares_list)
 """
 # Task 4
-
+"""
 
 class SquareGenerator:
     def e_squares(self, start, end):
@@ -43,3 +43,7 @@ start_num = 1
 end_num = 10
 squares_list = SquareGenerator().e_squares(start_num, end_num)
 print(squares_list)
+"""
+
+# Task 5
+
