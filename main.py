@@ -71,9 +71,21 @@ squares_list = square_generator.SquareGenerator().e_squares(start_num, end_num)
 print(squares_list)
 """
 # Task 7
+"""
+start_num = 10
+end_num = 10
+squares_list = square_generator.SquareGenerator().e_squares(start_num, end_num)
+print(squares_list)
+"""
+# Task 8
 
 start_num = 10
 end_num = 10
 squares_list = square_generator.SquareGenerator().e_squares(start_num, end_num)
 print(squares_list)
+
+start_num = 10
+end_num = 10
+cubic_list = square_generator.CubicGenerator().e_cubes(start_num, end_num)
+print(cubic_list)
 
