@@ -4,13 +4,11 @@ from abc import (ABC, abstractmethod)
 class SquareGenerator(ABC):
     @abstractmethod
     def e_squares(self, start, end):
-        # commented for the task 10, Abstract Elements
-    #     if start < end + 1:
-    #         squares = [math.pow(x, 2) for x in range(start, end + 1)]
-    #         return squares
-    #     else:
-    #         return "Start cannot be smaller than end"
-        pass
+        if start < end + 1:
+            squares = [math.pow(x, 2) for x in range(start, end + 1)]
+            return squares
+        else:
+            return "Start cannot be smaller than end"
 
 
 class CubicGenerator(SquareGenerator):

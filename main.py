@@ -108,7 +108,7 @@ print(cubic_list)
 """
 # Task 10
 
-# commented because e_squares is an abstract method
+# commented because SquareGenerator().e_squares() is abstract, it would compile
 
 # start_num = 10
 # end_num = 10
